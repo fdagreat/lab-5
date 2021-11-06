@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <title>Lab 5</title>
     <meta charset="utf-8">
     <style>
+        @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
     html, body
     {
         background-image:url('https://images01.nicepage.com/c461c07a441a5d220e8feb1a/71745c0836905d50808faa4e/fdrt.jpg');
@@ -51,10 +52,18 @@
         width: 100%;
         
     }
+    
     .btn
     {
-        color: black;
-        text-decoration: underline;
+        background: rgb(230, 62, 62);
+        /* color: white; */
+        text-decoration-color: white;
+        /* color: white; */
+        /* text: white; */
+        text-align: center;
+        position: relative;
+        
+
     }
     .info
     {
@@ -67,10 +76,19 @@
         left: 0px;
         padding-top: 20px;
         width: 100%
-         
-
     }
     
+
+    a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+    }
+    a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
     </style>
 </head>
 <body>
@@ -87,7 +105,9 @@
                 reprehenderit in voluptate<br>
                 velit esse cillum dolore eu<br>
                 fugiat nulla pariatur</p>
-            <a href="" class="btn" >MORE</a>
+                <button class="btn">
+                    <a href="" >MORE</a>
+                </button>
         </div>
         <div class="footer-section yoga">
             <img src="https://www.dropbox.com/s/to75p3a22j5suzc/announcement.png?raw=1"/>
@@ -96,7 +116,9 @@
                 reprehenderit in voluptate<br>
                 velit esse cillum dolore eu<br>
                 fugiat nulla pariatur</p>
-            <a href="" class="btn" >MORE</a>
+                <button class="btn">
+                    <a href="" >MORE</a>
+                </button>
         </div>        
 
         <div class="footer-section pilates">
@@ -106,16 +128,20 @@
                 reprehenderit in voluptate<br>
                 velit esse cillum dolore eu<br>
                 fugiat nulla pariatur</p>
-            <a href="" class="btn" >MORE</a>
+                <button class="btn">
+                    <a href="" >MORE</a>
+                </button>
         </div>
-        <div class="footer-section suport" style="top: 50px; position: relative;">
+        <div class="footer-section suport" >
             <img src="https://www.dropbox.com/s/gu0uvv40tghpwfb/assistance.png?raw=1"/>
             <h1>SUPORT</h1>
             <p>Duis aute irure dolor ir<br>
                 reprehenderit in volupta<br>
                 velit esse cillum dolore t<br>
                 fugiat nulla pariatur</p>
-            <a href="" class="btn">MORE</a>
+                <button class="btn">
+                 <a href="#" >Sign up</a> 
+            </button>
         </div>
         </div>
         
@@ -123,9 +149,9 @@
 <div class="bottom">
     <p>image from <span style="color: red;text-decoration: underline;">Freepik</span></p>  
 </div> 
-<div class="info">
+<!-- <div class="info">
     <p>Sample text. Click to select the text box. Click again or double<br>
         click to start editing the text.</p>
-</div>     
+</div>      -->
 </body>
 </html>
